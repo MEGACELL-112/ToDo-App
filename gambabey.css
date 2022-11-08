@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+html{
+    min-height: 100%;
+}
+form{
+    overflow: hidden;
+    text-align: center;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.118);
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 50px auto 0;
+}
+h1{
+    margin: 5px;
+}
+ol{
+    list-style-position: inside;
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 10px;
+}
+li{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+}
+li:first-child{
+    margin-top: 0;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px 0;
+    border-radius: 5px;
+    float: left;
+    border: 1px solid #eee;
+    width: 100px;
+    display: block;
+    float: right;
+}
+input{
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+    border: 1px solid #eee;
+    width: calc(100% - 105px);
+}
